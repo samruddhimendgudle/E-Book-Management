@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+   <script src="cal.js"></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="container">
+        <input type="text" class="inputdata" name="inputdata" id="res">
+        <div class="btn">
+            <input type="button"  value= "AC" onclick="clear_data()">
+            <input type="button" value= "DEL" onclick="back()">
+            <input type="button" class="symbol"  value= "%" onclick="calculate('%')">
+            <input type="button" class="symbol"  value= "/" onclick="calculate('/')">
+
+            <input type="button"  value= "7" onclick="calculate('7')">
+            <input type="button" value= "8" onclick="calculate('8')">
+            <input type="button" value= "9" onclick="calculate('9')">
+
+            <input type="button" class="symbol"  value= "x" onclick="calculate('*')">
+            <input type="button" value= "4" onclick="calculate('4')">
+            <input type="button" value= "5" onclick="calculate('5')">
+            <input type="button" value= "6" onclick="calculate('6')">
+
+            <input type="button" class="symbol" value="-" onclick="calculate('-')">
+            <input type="button" value= "1" onclick="calculate('1')">
+            <input type="button" value= "2" onclick="calculate('2')">
+            <input type="button" value= "3" onclick="calculate('3')">
+
+            <input type="button" class="symbol"  value= "+" onclick="calculate('+')">
+
+            <input type="button" value= "00" onclick="calculate('00')">
+            <input type="button" value="0" onclick="calculate('0')">
+            <input type="button" value="." onclick="calculate('.')">
+            <input type="button" class="symbol" value="=" id="b1" onclick="result()">
+        </div>
+    </div>
+</body>
+
+</html>
