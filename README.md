@@ -16,6 +16,11 @@ This repository contains UI design screenshots for a sample application. All scr
 
 ---
 
+## 📝 Register Page
+
+![Register Page](FrontendPages/Register.png)
+
+---
 
 ## 📊 Dashboard
 
@@ -29,5 +34,19 @@ This repository contains UI design screenshots for a sample application. All scr
 
 ---
 
+## 💬 Feedback Page
+
+![Feedback Page](FrontendPages/feedback.png)
+
+---
+
+## 🎉 Thank You Page
+
+![Thank You Page](FrontendPages/thankYou.png)
+
+---
+
 ## 📁 Folder Structure
+
+All UI screenshots are located in the `FrontendPages/` directory:
 
